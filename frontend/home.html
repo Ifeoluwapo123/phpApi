@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consuming Api</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="frontend.css">
+</head>
+<body>
+	<div class="container">
+		<div class="phone">
+			<label class="phonename">ANDROID</label>
+			<div class="home">
+				<h4 id="header"></h4><a href="frontend.html">log-out</a>
+				<div class="contain">
+					<h5>Products-type on Sale</h5>
+					<div id="product">
+						<ul id="lists"></ul>
+					</div>
+			    </div>
+			    <div class="mine">
+			    	<h5>product(s) posted by you</h5>
+			    	<div id="page">
+			    		<p id="desc"></p>
+			    	</div>
+			    </div>
+			    <button class="btn btn-default" onclick="send()">Check All product on Sale</button>
+			</div>
+			<table>
+				<td>
+					<tr>
+						<label class="mini" onclick="mini()"> </label>
+						<label class="center" onclick="center()"> O </label>
+						<label class="back" onclick="back()"> </label>
+					</tr>
+				</td>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="home.js"></script>
+</html>

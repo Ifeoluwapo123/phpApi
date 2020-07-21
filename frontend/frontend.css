@@ -1,0 +1,136 @@
+
+.phone{
+	border: 1px solid black;
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 20px;
+	height: 590px;
+	border-radius: 25px;
+	padding: 5px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: black;
+}
+
+.phone > .phonename{
+	margin-left: 103px;
+	color: #ffffff;
+}
+
+.phone > .inner{
+	height: 90%;
+	width: 100%;
+	padding: 5px;
+	border-radius: 2%;
+	background-color: #fffbfa;
+}
+
+.home{
+	height: 90%;
+	width: 100%;
+	padding: 5px;
+	border-radius: 2%;
+	background-color: #feebfa;
+	overflow-y: scroll;
+	margin-bottom: 10px;
+}
+
+.home h4{
+	text-align: center;
+	border-radius: 12px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.mine img{
+	margin-left: 20px;
+	margin-bottom: 5px;
+	height:170px; 
+	width:70%;
+}
+
+div .mine{
+	margin-top:20px;
+	border-top: 1px solid black;
+	width: 100%;
+	border-top-right-radius: 60px;
+	background-color: #fff;
+	padding: 5px;
+}
+
+.mine h5{
+	background-color:#feebfa;
+	border-top-right-radius: 60px;
+	padding: 5px;
+	width: 200px;
+}
+
+.mine div{
+	border-top-right-radius: 60px;
+}
+
+.mine p{
+	max-width: 300px;
+	word-wrap:break-word;
+}
+
+.contain{
+	width: 100%;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.contain > h5{
+	text-align: center;
+	padding: 3px;
+	background-color: #feebfa
+}
+
+.inner > .screen{
+	border:1px solid black;
+	height: 450px;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+.screen > .elements{
+	width: 100%;
+	height: 100%;
+}
+
+.container div{
+	display: inline-block;
+}
+
+.container label{
+	color: #000;
+}
+
+.inner{
+	background-position: center;
+	background-repeat:repeat-x;
+	background-size: cover;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.inner button{
+	position: relative;
+	top: 200px;
+	left: 76px;
+	height: 60px;
+	width: 100px;
+}
+
+.inner a  button{
+	text-decoration: none;
+}
+
+.inner a:hover button{
+	color: red;
+}
+
+table{
+	margin-top: 10px;
+	margin-left: 5px;
+}

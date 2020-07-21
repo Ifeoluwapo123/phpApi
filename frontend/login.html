@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consuming Api</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="frontend.css">
+</head>
+<body>
+	<div class="container">
+		<div class="phone">
+			<label class="phonename">ANDROID</label>
+			<div class="inner">
+					<form id="login">
+						<h4>Login</h3>
+						<p id="status" style="color:green"></p>
+						<table>
+						    <tr>
+								<td><label>Email:</label></td>
+							    <td><input type="email" id="email" name="email"></td><br>
+						    </tr>
+						    <tr>
+								<td><label>Password:</label></td>
+							    <td><input type="password" id="password" name="password"></td><br>
+						    </tr>
+						    <tr>
+						    	<td><input type="submit" name="submit"></td>
+						    </tr>
+						    <td>
+						    	<a href="frontend.html"><em>sign up</em></a>
+						    </td>
+					    </table>	
+					</form>
+				
+			</div>
+			<table>
+				<td>
+					<tr>
+						<label class="mini" onclick="mini()"> </label>
+						<label class="center" onclick="center()"> O </label>
+						<label class="back" onclick="back()"> </label>
+					</tr>
+				</td>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="login.js"></script>
+</html>
